@@ -25,9 +25,8 @@
 
 <body>
     <header>
-
         <!-- Nav bar start -->
-        <div class="lg:px-28">
+        <div class="w-auto lg:px-28">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
                     <div class="dropdown">
@@ -60,80 +59,286 @@
                 </div>
                 <div class="navbar-end">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
-                        <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
-                        </svg>
+                        <path
+                            d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z">
+                        </path>
+                    </svg>
                     <button class="text-white bg-[#dc2626] btn hover:bg-black">Get Tickets</button>
                 </div>
             </div>
         </div>
         <!-- Nav bar End -->
         <!-- Banner Design Start -->
-        <div>
-            <div class="mx-auto lg:px-28 py-3 h-80">
-                <div class="carousel w-full">
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src="./Images/1.png" class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide4" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
+        <div class="carousel w-auto h-auto lg:mx-32 lg:my-8 h-[80vh]">
+            <!-- slider 1 -->
+            <div id="slide1" class="carousel-item relative w-full">
+                <img src="Images/hockey-players.jpg" class="w-full " />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- slider2 -->
+            <div id="slide2" class="carousel-item relative w-full">
+                <img src="Images/hockey-players (3).jpg" class="w-full relative" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- slider3 -->
+            <div id="slide3" class="carousel-item relative w-full">
+                <img src="Images/hockey-players (2).jpg" class="w-full " />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a>
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+            <!-- slider4 -->
+            <div id="slide4" class="carousel-item relative w-full">
+                <img src="Images/hockey-players (1).jpg" class="w-full " />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+            </div>
+        </div>
+        <!-- Banner Design End -->
+    </header>
+    <main class="w-auto m lg:mx-32">
+        <!-- Hockeys Club -->
+        <section>
+            <hr class="my-10" style="height:2px;border-width:0;color:gray;background-color:gray">
+            <div class="flex items-center justify-center">
+                <div class="">
+                    <h4 class=" lg:text-4xl text-xl font-extrabold">Professional Hockeys Club</h4>
+                    <p class="text-xl font-medium mt-3">The Game Of Hockey never gets old</p>
+                </div>
+            </div>
+            <!-- 80% -->
+            <div class=" grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="card lg:w-94 ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-primary rotate-[200deg]" style="--value:70 ;"
+                            role="progressbar"> <span style="rotate: -200deg;">80%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-medium text-xl">Prayer Facility</h2>
+                        <p>Grand Valley Hockey's Club Students share a single place of prayer</p>
                     </div>
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src="./Images/hockey-players (1).jpg" class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
-                        </div>
+                </div>
+                <!-- 90% -->
+
+                <div class="card lg:w-96 ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-primary text-red-500 rotate-[300deg]" style="--value:95 ;"
+                            role="progressbar"> <span style="rotate:-300deg;">90%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-medium text-xl"> Experienced Coach</h2>
+                        <p> The difference between a successful coach and a great coach is the ability to inspire and
+                            empower their players & We have that.</p>
+
                     </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="./Images/hockey-players (2).jpg" class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide4" class="btn btn-circle">❯</a>
-                        </div>
+                </div>
+                <!-- 70% -->
+                <div class="card lg:w-96  ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-primary text-purple-800 rotate-[250deg]" style="--value:70 ;"
+                            role="progressbar"> <span style="rotate: -250deg;">70%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-medium text-xl"> Senior Player</h2>
+                        <p> Living the senior athlete life. ..</p>
+
                     </div>
-                    <div id="slide4" class="carousel-item relative w-full">
-                        <img src="./Images/hockey-players.jpg" class="w-full" />
-                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+                <!-- 75% -->
+                <div class="card lg:w-96  ">
+                    <figure class="px-10 pt-10">
+                        <div class="radial-progress text-primary text-cyan-600 rotate-[180deg]" style="--value:70 ;"
+                            role="progressbar"> <span style="rotate: -180deg;">75%</span></div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title font-medium text-xl"> Training Ground</h2>
+                        <p>We have the largest & best training ground with best trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hockey End -->
+        <!-- Letest Feteared -->
+        <section class="w-auto m-0 md:container md:mx-auto">
+
+            <h2 class="text-5xl font-black text-center p-24">New Arraival</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- first card -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/Images/8.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl">Joursey</h2>
+                        <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum
+                            amet faucibus sed id nisi lectus at.</p>
+                        <div class="card-actions justify-start">
+                            <button class="text-white bg-[#dc2626] btn hover:bg-black"">Buy Now</button>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div dir="rtl">
-                        <div class="lg:relative h-32 w-2/4 mr-14 mx-10">
-                            <div class=" hidden lg:absolute h-36 w-auto mr-15 -top-44 start-0 rounded-xl bg-black">
-                                <div class="text-white p-8">
-                                    <h1 class="text-3xl text-center">Meet all the heroes from the field</h1>
-                                    <p class="text-left">Gretzky, Lemieux, Orr, Howe, Jagr, Crosby, Ovechkin: hockey
-                                        legends
-                                        with records, skill, leadership, and lasting impact on the sport's history.</p>
+                <!-- second card -->
+                <div class=" card w-96 bg-base-100 shadow-xl">
+                                <figure><img src="/Images/6.png" alt="Shoes" /></figure>
+                                <div class="card-body">
+                                    <h2 class="card-title text-3xl">Ball</h2>
+                                    <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                        fermentum
+                                        amet faucibus sed id nisi lectus at.</p>
+                                    <div class="card-actions justify-start">
+                                        <button class="text-white bg-[#dc2626] btn hover:bg-black">Buy Now</button>
+                                    </div>
+                                </div>
+                        </div>
+                        <!-- third card -->
+                        <div class="card w-96 bg-base-100 shadow-xl">
+                            <figure><img src="/Images/7.png" alt="Shoes" /></figure>
+                            <div class="card-body">
+                                <h2 class="card-title text-3xl">Hat</h2>
+                                <p class="text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
+                                    fermentum
+                                    amet faucibus sed id nisi lectus at.</p>
+                                <div class="card-actions justify-start">
+                                    <button class="text-white bg-[#dc2626] btn hover:bg-black">Buy Now</button>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div>
-                    <div class="h-32 w-auto -mt-32 p-5 lg:hidden">
-                        <div class="h-24 w-auto rounded-xl bg-black">
-                            <div class="text-white">
-                                <h1 class="text-sm text-center">Meet all the heroes from the field</h1>
-                                <p class="text-left text-sm">Gretzky, Lemieux, Orr, Howe, Jagr, Crosby, Ovechkin: hockey
-                                    legends with records, skill, leadership, and lasting impact on the sport's history.
-                                </p>
-                            </div>
+        </section>
+        <!-- New Arraival -->
+        <section class="py-4 md:my-24">
+            <h2 class="md:text-5xl font-black text-center md:py-9">Our Beautiful Customer</h2>
+            <div class="grid gap-5 md:gap-10 grid-cols-1  md:grid-cols-2 lg:grid-cols-3  ">
+                <div class="card w-96 p-4 md:p-9 bg-base-100 border rounded-full border-gray-400">
+                    <figure><img class="w-36 rounded-full" src="/Images/man1.avif" alt="Shoes" /></figure>
+                    <div class="card-body justify-center items-center space-y-1 my-2">
+                        <p class="text-sm md:text-xl font-light justify-center">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
+                        <h3 class="text-xl font-semibold justify-center"><span class="text-person"> Regina
+                                Miles</span></h3>
+                        <h3 class="text-xl font-light justify-center"><span class="text-black"> Regina Miles</span>
+                        </h3>
+                    </div>
+
+                </div>
+                <div class="card w-96 md:p-9 bg-base-100 shadow-xl rounded-full border border-gray-400">
+                    <figure><img class="w-36 rounded-full " src="/Images/man2.jpg" alt="Shoes" /></figure>
+                    <div class="card-body justify-center items-center space-y-1 my-2">
+                        <p class="text-xl font-light justify-center">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h3 class="text-xl font-semibold justify-center"><span class="text-person"> Regina
+                                Miles</span></h3>
+                        <h3 class="text-xl font-light justify-center"><span class="text-black"> Regina Miles</span>
+                        </h3>
                     </div>
                 </div>
 
-            </div>
-            <!-- Banner Design End -->
-    </header>
-    <main>
+                <div class="card w-96 md:p-9 bg-base-100 shadow-xl rounded-full border border-gray-400">
+                    <figure><img class="w-36 rounded-full " src="/Images/man3.webp" alt="Shoes" /></figure>
+                    <div class="card-body justify-center items-center space-y-1 my-2">
 
+                        <p class="text-xl font-light justify-center">Slate helps you see how
+                            many more days you need
+                            to work to reach your financial
+                            goal for the month and year.</p>
+                        <div class="rating">
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                        </div>
+                        <h3 class="text-xl font-semibold justify-center"><span class="text-person"> Regina
+                                Miles</span></h3>
+                        <h3 class="text-xl font-light justify-center"><span class="text-black"> Regina Miles</span>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section >
+            <h2 class="md:text-5xl font-black text-center md:py-7">Frequently Ask <span class="text-bike-primary">Questions</span></h2>
+
+            
+            <div class="hero">
+                <div class="hero-content flex-col lg:flex-row gap-30">
+                  <img  src="/Images/11.png" class=" w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+
+                <div class="collapse collapse-arrow">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-3xl font-medium">
+                    What are the most important things I should
+                    know about riding a bike?
+                </div>
+                <div class="collapse-content text-xl"> 
+                  <p >Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+                </div>
+
+                <div class="collapse collapse-arrow">
+                    <input type="radio" name="my-accordion-2" checked="checked" /> 
+                    <div class="collapse-title text-3xl font-medium">
+                        What are the most important things I should
+                        know about riding a bike?
+                    </div>
+                    <div class="collapse-content text-xl"> 
+                      <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                    </div>
+                    </div>
+                    <div class="collapse collapse-arrow">
+                        <input type="radio" name="my-accordion-2" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                            What are the most important things I should
+                            know about riding a bike?
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                        </div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" checked="checked" /> 
+                            <div class="collapse-title text-3xl font-medium">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </div>
+                            <div class="collapse-content text-xl"> 
+                              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            </div>
+                            </div>
+                  </div>
+                </div>
+              </div>   
     </main>
+
     <footer>
 
     </footer>
