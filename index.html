@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <style>
-        * {
+        .poppins {
             font-family: 'Poppins', sans-serif;
         }
     </style>
@@ -25,6 +25,8 @@
 
 <body>
     <header>
+
+        <!-- Nav bar start -->
         <div class="lg:px-28">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -57,10 +59,77 @@
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <button class="text-white bg-[#dc2626] btn hover:bg-black">Accent</button>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                        <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
+                        </svg>
+                    <button class="text-white bg-[#dc2626] btn hover:bg-black">Get Tickets</button>
                 </div>
             </div>
         </div>
+        <!-- Nav bar End -->
+        <!-- Banner Design Start -->
+        <div>
+            <div class="mx-auto lg:px-28 py-3 h-80">
+                <div class="carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                        <img src="./Images/hockey-players (1).jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                        <img src="./Images/hockey-players (2).jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                        <img src="./Images/hockey-players.jpg" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div dir="rtl">
+                        <div class="lg:relative h-32 w-2/4 mr-14 mx-10">
+                            <div class=" hidden lg:absolute h-36 w-auto mr-15 -top-44 start-0 rounded-xl bg-black">
+                                <div class="text-white p-8">
+                                    <h1 class="text-3xl text-center">Meet all the heroes from the field</h1>
+                                    <p class="text-left">Gretzky, Lemieux, Orr, Howe, Jagr, Crosby, Ovechkin: hockey
+                                        legends
+                                        with records, skill, leadership, and lasting impact on the sport's history.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="h-32 w-auto -mt-32 p-5 lg:hidden">
+                        <div class="h-24 w-auto rounded-xl bg-black">
+                            <div class="text-white">
+                                <h1 class="text-sm text-center">Meet all the heroes from the field</h1>
+                                <p class="text-left text-sm">Gretzky, Lemieux, Orr, Howe, Jagr, Crosby, Ovechkin: hockey
+                                    legends with records, skill, leadership, and lasting impact on the sport's history.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Banner Design End -->
     </header>
     <main>
 
