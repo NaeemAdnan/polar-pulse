@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
 
     <style>
-        .poppins {
+        * {
             font-family: 'Poppins', sans-serif;
         }
     </style>
@@ -115,6 +115,7 @@
                     <p class="text-xl font-medium mt-3">The Game Of Hockey never gets old</p>
                 </div>
             </div>
+            <hr class="my-10" style="height:2px;border-width:0;color:gray;background-color:gray">
             <!-- 80% -->
             <div class=" grid lg:grid-cols-4 grid-cols-1 md:grid-cols-2 gap-10">
                 <div class="card lg:w-94 ">
@@ -216,7 +217,8 @@
         <section class="py-4 md:my-24">
             <h2 class="md:text-5xl font-black text-center md:py-9">Our Beautiful Customer</h2>
             <div class="grid gap-5 md:gap-10 grid-cols-1  md:grid-cols-2 lg:grid-cols-3  ">
-                <div class="card w-96 p-4 md:p-9 bg-base-100 border rounded-full border-gray-400">
+                <div
+                    class="card w-96 p-4 md:p-9 bg-base-100 border rounded-full border-gray-400 hover:bg-black hover:text-white">
                     <figure><img class="w-36 rounded-full" src="/Images/man1.avif" alt="Shoes" /></figure>
                     <div class="card-body justify-center items-center space-y-1 my-2">
                         <p class="text-sm md:text-xl font-light justify-center">Slate helps you see how
@@ -230,14 +232,14 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <h3 class="text-xl font-semibold justify-center"><span class="text-person"> Regina
-                                Miles</span></h3>
-                        <h3 class="text-xl font-light justify-center"><span class="text-black"> Regina Miles</span>
+                        <h3 class="text-xl font-semibold justify-center"><span class="text-person">Feon Leo</span></h3>
+                        <h3 class="text-xl font-light justify-center"><span class="text-black">Feon Leo</span>
                         </h3>
                     </div>
 
                 </div>
-                <div class="card w-96 md:p-9 bg-base-100 shadow-xl rounded-full border border-gray-400">
+                <div
+                    class="card w-96 md:p-9 bg-base-100 shadow-xl rounded-full border border-gray-400 hover:bg-black hover:text-white">
                     <figure><img class="w-36 rounded-full " src="/Images/man2.jpg" alt="Shoes" /></figure>
                     <div class="card-body justify-center items-center space-y-1 my-2">
                         <p class="text-xl font-light justify-center">Slate helps you see how
@@ -251,14 +253,14 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
-                        <h3 class="text-xl font-semibold justify-center"><span class="text-person"> Regina
-                                Miles</span></h3>
-                        <h3 class="text-xl font-light justify-center"><span class="text-black"> Regina Miles</span>
+                        <h3 class="text-xl font-semibold justify-center"><span class="text-person">Marking Tern</span></h3>
+                        <h3 class="text-xl font-light justify-center"><span class="text-black"> Markeing Tern</span>
                         </h3>
                     </div>
                 </div>
 
-                <div class="card w-96 md:p-9 bg-base-100 shadow-xl rounded-full border border-gray-400">
+                <div
+                    class="card w-96 md:p-9 bg-base-100 shadow-xl rounded-full border border-gray-400 hover:bg-black hover:text-white">
                     <figure><img class="w-36 rounded-full " src="/Images/man3.webp" alt="Shoes" /></figure>
                     <div class="card-body justify-center items-center space-y-1 my-2">
 
@@ -283,64 +285,152 @@
         </section>
 
 
+        <!-- FAQ Section -->
+        <section>
+            <h2 class="md:text-5xl font-black text-center md:py-7">Frequently Ask Questions</span></h2>
 
-        <section >
-            <h2 class="md:text-5xl font-black text-center md:py-7">Frequently Ask <span class="text-bike-primary">Questions</span></h2>
 
-            
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row gap-30">
-                  <img  src="/Images/11.png" class=" w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
-                  <div>
+                    <img src="/Images/11.png" class=" w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
+                    <div>
 
-                <div class="collapse collapse-arrow">
-                <input type="radio" name="my-accordion-2" checked="checked" /> 
-                <div class="collapse-title text-3xl font-medium">
-                    What are the most important things I should
-                    know about riding a bike?
-                </div>
-                <div class="collapse-content text-xl"> 
-                  <p >Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
-                </div>
-                </div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-3xl font-medium">
+                                How can I join the hockey club?
+                            </div>
+                            <div class="collapse-content text-xl">
+                                <p>To join our hockey club, attend tryouts, meet eligibility criteria, complete
+                                    registration, and stay informed about schedules and club activities. </p>
+                            </div>
+                        </div>
 
-                <div class="collapse collapse-arrow">
-                    <input type="radio" name="my-accordion-2" checked="checked" /> 
-                    <div class="collapse-title text-3xl font-medium">
-                        What are the most important things I should
-                        know about riding a bike?
-                    </div>
-                    <div class="collapse-content text-xl"> 
-                      <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
-                    </div>
-                    </div>
-                    <div class="collapse collapse-arrow">
-                        <input type="radio" name="my-accordion-2" checked="checked" /> 
-                        <div class="collapse-title text-xl font-medium">
-                            What are the most important things I should
-                            know about riding a bike?
-                        </div>
-                        <div class="collapse-content"> 
-                          <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
-                        </div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-3xl font-medium">
+                                Where can I purchase club merchandise?
+                            </div>
+                            <div class="collapse-content text-xl">
+                                <p>You can purchase our hockey club's merchandise, including jerseys and apparel,
+                                    through our online store on the official website or at designated physical locations
+                                    during events and games.</p>
+                            </div>
                         </div>
                         <div class="collapse collapse-arrow">
-                            <input type="radio" name="my-accordion-2" checked="checked" /> 
+                            <input type="radio" name="my-accordion-2" checked="checked" />
                             <div class="collapse-title text-3xl font-medium">
-                                What are the most important things I should
-                                know about riding a bike?
+                                How can businesses sponsor or partner with the club?
                             </div>
-                            <div class="collapse-content text-xl"> 
-                              <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                            <div class="collapse-content">
+                                <p>Businesses can sponsor or partner with our hockey club by reaching out to our
+                                    sponsorship team via the contact form on our website for tailored collaboration
+                                    opportunities.</p>
                             </div>
+                        </div>
+                        <div class="collapse collapse-arrow">
+                            <input type="radio" name="my-accordion-2" checked="checked" />
+                            <div class="collapse-title text-3xl font-medium">
+                                How do I stay updated on the latest club news and events?
                             </div>
-                  </div>
+                            <div class="collapse-content text-xl">
+                                <p>Stay informed about our hockey club's latest news and events by regularly checking
+                                    our website, subscribing to newsletters, and following us on social media for
+                                    real-time updates and announcements. </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>   
+            </div>
     </main>
-
     <footer>
+        <div>
+            <footer class="footer p-10 bg-base-200 text-base-content bg-black text-white">
+                <aside>
+                    <h1 class="text-4xl text-1xl text-[#959595]">Get in Touch</h1>
+                    <p class="text-sm">123 Main Street,<br>
+                        Cityville, State,<br>
+                        Country - 12345.</p>
+                    <div class="flex items-center">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="655.359"
+                            height="655.359"
+                            style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;fill-rule:evenodd;clip-rule:evenodd"
+                            viewBox="0 0 6.827 6.827">
+                            <defs>
+                                <style>
+                                    .fil4 {
+                                        fill: #5c5c5c
+                                    }
 
+                                    .fil6 {
+                                        fill: #afafaf
+                                    }
+
+                                    .fil3 {
+                                        fill: #6a6a6a;
+                                        fill-rule: nonzero
+                                    }
+                                </style>
+                            </defs>
+                            <g id="Layer_x0020_1">
+                                <g id="_517197264">
+                                    <path id="_517199112"
+                                        d="M5.87 5.003a.104.104 0 0 0 .103-.104V2.668a.104.104 0 0 0-.104-.104H1.62a.104.104 0 0 0-.104.104v2.231c0 .058.047.104.104.104h4.25z"
+                                        style="fill:#b8b8b8;fill-rule:nonzero" />
+                                    <path id="_517199160"
+                                        d="M3.744 3.93h.002L5.75 2.732 4.344 3.785l1.422 1.01-1.613-.884-.35.231a.103.103 0 0 1-.057.018h-.003a.103.103 0 0 1-.057-.018l-.351-.231-1.613.884 1.422-1.01-1.407-1.053L3.743 3.93h.001z"
+                                        style="fill:#a4a4a4;fill-rule:nonzero" />
+                                    <path id="_517198344"
+                                        d="M1.224 4.193a.055.055 0 0 0-.02-.075.055.055 0 0 0-.075.019 1.72 1.72 0 0 0-.207.5 1.02 1.02 0 0 0-.001.49.808.808 0 0 0 .368.479c.613.385 1.275.228 1.858-.134a5.16 5.16 0 0 0 .648-.469h-.17a5.972 5.972 0 0 1-.537.378c-.535.335-1.161.496-1.74.132-.499-.314-.385-.887-.124-1.32z"
+                                        style="fill:#333" />
+                                    <path id="_517198056" class="fil3"
+                                        d="m1.171 4.272.085.187a.087.087 0 0 0 .138.027 3.449 3.449 0 0 0 .753-.842.087.087 0 0 0-.02-.115l-.054-.05-.037-.033a1.543 1.543 0 0 1-.054-.05l-.81.876z" />
+                                    <path id="_517198128" class="fil4"
+                                        d="M1.799 4.102a3.449 3.449 0 0 1-.429.4 3.178 3.178 0 0 1 .783-.87 3.63 3.63 0 0 1-.355.47z" />
+                                    <g>
+                                        <path id="_517198104"
+                                            d="M3.361 1.013A7.25 7.25 0 0 0 1.957 2.1a7.253 7.253 0 0 0-1.09 1.41l.073.044-.074-.045a.087.087 0 0 0-.001.088l.267.589.798-.861c-.029-.072.016-.163.176-.39a2.897 2.897 0 0 1 .687-.686c.227-.161.318-.205.39-.176l.86-.797-.596-.272-.036.079.036-.08a.087.087 0 0 0-.086.009z"
+                                            style="fill:#7e7e7e;fill-rule:nonzero" />
+                                        <path id="_517198656" class="fil6"
+                                            d="M4.041 1.27c.006.003.115.052.108.059l-.873.808-.095-.07.86-.796z" />
+                                        <path id="_517198032" class="fil6"
+                                            d="m1.924 3.312.066.09-.81.875-.052-.102.797-.86-.001-.003z" />
+                                        <path id="_517198536" class="fil3"
+                                            d="m3.253 2.127.049.052.033.038.054.059c.03.033.08.038.115.012a3.38 3.38 0 0 0 .458-.341c.142-.127.27-.265.386-.416l-.069-.053.069.053a.087.087 0 0 0-.04-.135l-.179-.08a.07.07 0 0 1-.003.002l-.873.809z" />
+                                        <path id="_517197384" class="fil4"
+                                            d="M3.96 1.947a3.45 3.45 0 0 1-.472.348l-.004.001c.075-.096.126-.159.285-.312.159-.153.409-.361.585-.46a2.928 2.928 0 0 1-.394.424z" />
+                                    </g>
+                                </g>
+                            </g>
+                            <path style="fill:none" d="M0 0h6.827v6.827H0z" />
+                        </svg>
+                        <p>contact@polarpulse.com</p>
+                    </div>
+                    <p>+8801XXXXXXXX</p>
+                    <p>Polar Pulse Ltd.<br />Providing reliable tech since 2024</p>
+                </aside>
+                <nav>
+                    <header class="footer-title">Services</header>
+                    <a class="link link-hover">Branding</a>
+                    <a class="link link-hover">Sell</a>
+                    <a class="link link-hover">Marketing</a>
+                    <a class="link link-hover">Advertisement</a>
+                </nav>
+                <nav>
+                    <header class="footer-title">Company</header>
+                    <a class="link link-hover">About us</a>
+                    <a class="link link-hover">Contact</a>
+                    <a class="link link-hover">Jobs</a>
+                    <a class="link link-hover">Press kit</a>
+                </nav>
+                <nav>
+                    <header class="footer-title">Legal</header>
+                    <a class="link link-hover">Terms of use</a>
+                    <a class="link link-hover">Privacy policy</a>
+                    <a class="link link-hover">Cookie policy</a>
+                </nav>
+            </footer>
+        </div>
     </footer>
 </body>
 
